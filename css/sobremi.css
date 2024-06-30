@@ -1,0 +1,39 @@
+.container-sobremi{
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem; /*margen alto*/
+    line-height: 2.5rem;
+    font-style: italic; /*cursiva*/
+    color: azure;
+    gap: 5rem;
+    align-items: center;
+
+} 
+.img-perfil{
+    border-radius: 50%;
+}
+
+@media(max-width: 767px){
+
+.container-sobremi{
+    width: 100%;
+    padding: 1;
+    margin-top: 1rem; /*margen alto*/
+    line-height: 2.5rem;
+    font-style: italic; /*cursiva*/
+    flex-direction: column;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .container-sobremi{
+        width: 75%;
+    }
+}
+@media (min-width: 1024px){
+    .container-sobremi{
+        width: 50%;
+    }
+}

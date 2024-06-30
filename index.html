@@ -1,0 +1,122 @@
+<!--Es de buenas practicas comenzar a estructurar nuetros archivos ordenando la estructura para el desarrollo 
+ en este caso del portafolio web, por lo tanto esta estructura puede variar según nuestro proyecto.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Especifica el idioma del contenido del documento-->
+    <meta http-equiv="content-language" content="es">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Agregamos dos etiquetas meta para el Seo de la clase anterior mas otra etiqueta meta del author-->
+    <meta name="description" content="Uriel Ramirez">
+    <meta name="keywords" content="portfolio, desarrollador web, programador, proyectos, contacto">
+    <meta name="author" content="Uriel Ramirez">
+    <title>Portfolio web</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sobremi.css">
+    <link rel="stylesheet" href="./css/estudios.css">
+    <link rel="stylesheet" href="./css/experiencias.css">
+    <link rel="stylesheet" href="./css/proyecto.css">
+</head>
+<body data-theme="dark">
+    <header>
+        <h1>Uriel Ramirez - Técnico en programación</h1>
+        <img src="" alt="">
+        <nav>
+            <!-- Agrege nuevos enlaces para nuestro portfolio web-->
+            <ul class="navigation">
+                <li><a href="#sobremi"><h2>Sobre Mi</h2></a></li>
+                <li><a href="#proyectos"><h2>Proyectos</h2></a> </li>
+                <li><a href="#contacto"><h2>Contacto</h2></a></li>
+                <li><a href="#Estudios"><h2>Estudios</h2></a></li>
+                <li><a href="#experiencia"><h2>Experiencias</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class ="main-container">
+        <section class="sobremi">
+            <article class="container-sobrenosotros">
+                <img class="img-perfil" src="./Asserts/foto grupo.jpg" alt="foto grupo" width = "200" height = "200">
+                <h2>Dsarrollo de sofware
+                    Contamos con una experiencia con más de 15 años en el campo d ela Tecnología.
+                    Realizando trabajo para empresas con gran envergadura2
+                    Formamos parte del cluster de innovacion de Argentina.
+                    <br>
+                    <br>
+                    Desarrollar y afianzar conocimientos en áreas de marketing digital para enriquecer nuestra experiencia, 
+                    fortalecer competencias y habilidades, y brindar un servicio de calidad adaptable a todos los clientes.
+                </h2>
+            </article>
+        </section> 
+        <section id="experiencia" class="experiencia">
+            <article class="container-experiencia">
+                <h2>Experiencia Laboral</h2>
+                <h3>Empresa: TechInnovators Inc</h3>
+                <h4>Período: Enero 2020 - Diciembre 2022</h4>
+                <p>En TechInnovators Inc., nuestro equipo de desarrollo de software se dedica a crear soluciones innovadoras y personalizadas 
+                    para nuestros clientes. Como desarrollador de software, trabajé en diversos proyectos que abarcaron desde aplicaciones web hasta
+                     sistemas integrados, siempre con el objetivo de mejorar la eficiencia operativa y la satisfacción del cliente. </p>
+            </article>
+        </section>
+        <section id="estudios" class="estudios">
+            <article class="container-estudios">
+                <h2> Nuestros Estudios</h2>
+                <h3>Titulo: Tecnicatura en Programacion - UTN Facultad Regional San Rafael </h3>
+                <div class="container-estudios-section"></div>
+                <p> Conocimientos técnicos sólidos: Dominio de lenguaje de programación, comprensión de los principios de la programación orientada a objetos, estructuras de datos y algoritmos. </p>
+                
+            </article>
+        </section>
+        <section id="proyectos" class="proyectos">
+            <h2>Proyectos</h2>
+            <div class="galeria-proyectos">
+                <div class="proyecto">
+                    <img src="./Asserts/proyecto1.jpeg" alt="foto del proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>
+                        Descripcion
+                    </p>
+                    <a href="#">Ver mas</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Tecnologias</a>
+                </div>
+                <div class="proyecto">
+                    <img src="./Asserts/proyecto2.jpeg" alt="foto del proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>
+                        Descripcion
+                    </p>
+                    <a href="#">Ver mas</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Tecnologias</a>
+                </div>
+                <div class="proyecto">
+                    <img src="./Asserts/proyecto3.jpeg" alt="foto del proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>
+                        Descripcion
+                    </p>
+                    <a href="#">Ver mas</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Tecnologias</a>
+                </div>
+            </div>
+        </section>
+
+     </main>      
+     <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2024 Uriel Ramirez. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https:github.com/" target="_blank" aria-label="GitHub">
+
+                </a>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
